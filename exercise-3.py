@@ -2,7 +2,7 @@
 
 # Write the code that:
 # 1. Prompts the user to enter a dog's age in human years like this:
-#      Input a dog's age in human years: 
+#      Input a dog's age in human years:
 # 2. Calculates the equivalent dog years, where:
 #      - The first two years count as 10 years each
 #      - Any remaining years count as 7 years each
