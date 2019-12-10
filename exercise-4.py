@@ -6,11 +6,28 @@
 #      a:
 #      b:
 #      c:
-age = input("Input a dog's age in human years: ").lower()
+print("Enter the length of three sides of a triangle: ")
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+
 
 # 2. Write the code that determines if the triangle is:
 #      equilateral - all three sides are equal in length
 #      scalene - all three sides are unequal in length
 #      isosceles - two sides are the same length
+
+if a == b and a == c:
+    tri = ("EQUILATERAL")
+
+elif a != b and a != c and b != c:
+    tri = ("SCALENE")
+
+else:
+    tri = ("ISOSCELES")
+
+
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
+
+print(f"Triangle with {a}, {b}, {c} is a {tri}")
