@@ -9,6 +9,8 @@
 
 
 word = ""
-while word != "QUIT":
+while word != "quit":
     word = input("Please enter a word or phrase: ").lower()
     print (f"What you entered is {len(word)} characters long")
+    if word == "quit":
+        print("END")
